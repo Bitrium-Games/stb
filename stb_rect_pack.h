@@ -68,11 +68,7 @@
 
 #define STB_RECT_PACK_VERSION  1
 
-#ifdef STBRP_STATIC
-#define STBRP_DEF static
-#else
-#define STBRP_DEF extern
-#endif
+#define STBRP_DEF GEN_API
 
 #ifdef __cplusplus
 extern "C" {
